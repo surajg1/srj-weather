@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    /* font-color: red; */
+    color: orange;
+    flex-direction: column;
+    /* min-height: 500vh; */
+}
+
+header {
+    background: black;
+    margin-top: 16px;
+    margin-bottom: 48px;
+    font-size: 20px;
+}
+
+h1 {
+    font-size: 68px;
+    margin-bottom: 16px;
+}
+
+header a {
+    color: #888888;
+    margin-right: 16px;
+    text-decoration: none;
+    animation: forwards;
+}
+
+img {
+    width: 250px;
+}
+
+p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    color: #dd1a7c;
+    margin: auto;
+}
+
+.main-content {
+    flex-grow: 1;
+    /* margin: auto; */
+    flex: auto;
+    margin-bottom: 20px;
+}
+
+.ft {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+}
+
+@import 'https://fonts.googleapis.com/css?family=Righteous';
+html,
+body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background: #131313;
+}
+
+.specialtext {
+    position: absolute;
+    left: 50%;
+    top: 35%;
+    transform: translate(-50%, -50%);
+}
+
+#text {
+    font-size: 150px;
+    font-family: Righteous;
+}
+
+#fill {
+    animation: shift 5s linear infinite;
+}
+
+@keyframes shift {
+    0% {
+        x: 0;
+    }
+    100% {
+        x: -2000;
+    }
+}
+
+input {
+    border: 1px solid #cccccc;
+    padding: 8px;
+}
+
+button {
+    cursor: pointer;
+    border: 7px solid #888888;
+    background: #888888;
+    color: white;
+    padding: 12px;
+}
+
+.lo {
+    position: absolute;
+    left: 30%;
+    top: 60%;
+}
