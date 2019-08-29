@@ -8,6 +8,8 @@ const forcast = require('./utils/forcast')
 
 const app = express()
 const PORT = process.env.PORT || 8006;
+
+
 const PublicDirectoryPath = path.join(__dirname, '../public')
 const viewsPath = path.join(__dirname, '../templetes/views')
 const partialPath = path.join(__dirname, '../templetes/partials')
