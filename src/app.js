@@ -5,11 +5,12 @@ const geocode = require('./utils/geocodes')
 const forcast = require('./utils/forcast')
 
 // set up the Paths
+const PORT = process.env.PORT || 8006;
 const app = express()
 const PublicDirectoryPath = path.join(__dirname, '../public')
 const viewsPath = path.join(__dirname, '../templetes/views')
 const partialPath = path.join(__dirname, '../templetes/partials')
-const port = process.env.PORT || 8006
+
 
 // Handle the views location
 app.set('view engine', 'hbs')
@@ -114,6 +115,6 @@ app.get('/help/*', (req, res) => {
 
 
 
-app.listen(port, () => {
+app.listen(PORT, () => {
     console.log(" Server is Runnng in " + port + " port");
 })
