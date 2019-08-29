@@ -116,5 +116,5 @@ app.get('/help/*', (req, res) => {
 
 
 app.listen(PORT, () => {
-    console.log(" Server is Runnng in " + port + " port");
+    console.log(" Server is Runnng in ");
 })
