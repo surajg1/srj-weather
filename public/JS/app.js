@@ -16,7 +16,7 @@ weatherForm.addEventListener('submit', (e) => {
                 m2.textContent = data.error;
             } else {
                 m1.textContent = data.location;
-                m2.textContent = data.summary + ' It is currently ' + data.temp + ' degress out. There is a ' + data.RP + '% chance of rain.';
+                m2.textContent = data.summary + ' It is currently is' + data.temp + ' degress out. There is a ' + data.RP + '% chance of rain.';
             }
         })
     })
