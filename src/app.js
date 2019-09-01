@@ -7,7 +7,7 @@ const forcast = require('./utils/forcast')
 // set up the Paths
 
 const app = express()
-const PORT = process.env.PORT || 5000
+const PORT = process.env.PORT || 8006
 
 
 const PublicDirectoryPath = path.join(__dirname, '../public')
